@@ -1,0 +1,18 @@
+{
+    "name": "math/composer",
+    "description": "quete/math",
+    "authors": [
+        {
+            "name": "math",
+            "email": "drabland@gmail.com"
+        }
+    ],
+    "require": {
+        "ehime/hello-world": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
