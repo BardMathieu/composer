@@ -1,6 +1,7 @@
 <?php
-require_once __DIR__ . '/../vendor/autoload.php';
-use HelloWorld\SayHello;
-use Wcs\Hello;
-echo SayHello::world()."<br>";
-echo Hello::talk();
+require'../vendor/autoload.php';
+$hello = new App\Wcs\Hello();
+echo $hello->talk();
+echo "<br>";
+$helloWorld = new HelloWorld\SayHello();
+echo $helloWorld->world();
